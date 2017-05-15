@@ -195,3 +195,274 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/* Media query starts here */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .site-nav {
+    left: 0;
+    width: 7rem;
+    height: 100%;
+}
+
+  .site-nav-item {
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+  .site-nav-list {
+    margin-top: 7rem;
+    width: 100%;
+}
+
+  .site-logo {
+    z-index: 200;
+}
+
+  .site-nav-item > .fa {
+    padding: .5rem 0 0;
+}
+
+  .movie-overview {
+    display: block;
+    margin: 0 7rem 1rem;
+}
+
+  .movie-title {
+    margin: 0 7rem 1rem;
+}
+
+  .movie-title-label {
+    margin-left: 7rem;
+}
+
+  .footer-nav {
+    float: left;
+    width: 60%;
+    color: white;
+    margin-top: 0.4rem;
+}
+
+  .about {
+    width: 40%;
+    float: right;
+    background-color: black;
+    padding: 0.6rem;
+}
+
+  .site-footer {
+    height: 4.5rem;
+    background-color: black;
+    border: 0.13rem solid white;
+    border-right: 0;
+    clear: both;
+}
+
+  .footer-nav-list {
+    margin-left: 7rem;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+  .site-nav {
+    left: 0;
+    width: 7rem;
+    height: 100%;
+}
+
+  .site-nav-item {
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+  .site-nav-list {
+    margin-top: 7rem;
+    width: 100%;
+}
+
+  .site-logo {
+    z-index: 200;
+}
+
+  .site-nav-item > .fa {
+    padding: .5rem 0 0;
+}
+
+  .movie-overview {
+    display: none;
+}
+
+  .movie-title {
+    margin: 0 7rem 1rem;
+}
+
+  .movie-title-label {
+    margin-left: 7rem;
+}
+
+  .footer-nav {
+    float: left;
+    width: 60%;
+    color: white;
+    margin-top: 0.4rem;
+    clear: both;
+}
+
+  .about {
+    width: 40%;
+    float: right;
+    background-color: black;
+    padding: 0.6rem;
+}
+
+  .site-footer {
+    height: 4.5rem;
+    background-color: black;
+    border: 0.13rem solid white;
+    border-right: 0;
+    clear: both;
+}
+
+  .footer-nav-list {
+    margin-left: 7rem;
+}
+
+  .movie-image:first-child {
+    margin-left: 7rem;
+}
+
+  .movie-poster {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 475px;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie-details {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  .site-nav {
+    left: 0;
+    width: 7rem;
+    height: 100%;
+}
+
+  .site-nav-item {
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+  .site-nav-list {
+    margin-top: 7rem;
+    width: 100%;
+}
+
+  .site-logo {
+    z-index: 200;
+}
+
+  .site-nav-item > .fa {
+    padding: .5rem 0 0;
+}
+
+  .movie-overview {
+    display: none;
+}
+
+  .movie-title {
+    margin: 0 7rem 1rem;
+}
+
+  .movie-title-label {
+    margin-left: 7rem;
+}
+
+  .footer-nav {
+    float: left;
+    width: 60%;
+    color: white;
+    margin-top: 0.4rem;
+    clear: both;
+}
+
+  .about {
+    width: 40%;
+    float: right;
+    background-color: black;
+    padding: 0.6rem;
+}
+
+  .site-footer {
+    height: 4.5rem;
+    background-color: black;
+    border: 0.13rem solid white;
+    border-right: 0;
+    clear: both;
+}
+
+  .footer-nav-list {
+    margin-left: 7rem;
+}
+
+  .movie-image:first-child {
+    margin-left: 7rem;
+}
+
+  .movie-poster {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 475px;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie-details {
+    display: none;
+  }
+
+}
